@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11aa4ebf-4201-457b-a0e8-5fc5881fc199" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LuhnAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LuhnAlgorithmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GapInPrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GapInPrimesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SplitStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SplitStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SplitStringsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SplitStringsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,44 +51,48 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LuhnAlgorithmTest">
-    <configuration name="LuhnAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LuhnAlgorithm" />
+  <component name="RunManager" selected="JUnit.GapInPrimesTest">
+    <configuration name="GapInPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GapInPrimes" />
       <module name="CodewarsTasks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SplitStrings" />
-      <module name="CodewarsTasks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LuhnAlgorithmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GapInPrimesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodewarsTasks" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LuhnAlgorithmTest" />
+      <option name="MAIN_CLASS_NAME" value="GapInPrimesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitStringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GapInPrimesTest.testGap2PrimeNumbersFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodewarsTasks" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SplitStringsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="GapInPrimesTest" />
+      <option name="METHOD_NAME" value="testGap2PrimeNumbersFound" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitStringsTest.testSolutionEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GapInPrimesTest.testGapBetween3And50" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodewarsTasks" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SplitStringsTest" />
-      <option name="METHOD_NAME" value="testSolutionEmptyString" />
+      <option name="MAIN_CLASS_NAME" value="GapInPrimesTest" />
+      <option name="METHOD_NAME" value="testGapBetween3And50" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GapInPrimesTest.testGapNonPrimeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodewarsTasks" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GapInPrimesTest" />
+      <option name="METHOD_NAME" value="testGapNonPrimeNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LuhnAlgorithmTest" />
-        <item itemvalue="Application.LuhnAlgorithm" />
-        <item itemvalue="Application.SplitStrings" />
-        <item itemvalue="JUnit.SplitStringsTest.testSolutionEmptyString" />
-        <item itemvalue="JUnit.SplitStringsTest" />
+        <item itemvalue="JUnit.GapInPrimesTest" />
+        <item itemvalue="Application.GapInPrimes" />
+        <item itemvalue="JUnit.GapInPrimesTest.testGapBetween3And50" />
+        <item itemvalue="JUnit.GapInPrimesTest.testGap2PrimeNumbersFound" />
+        <item itemvalue="JUnit.GapInPrimesTest.testGapNonPrimeNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +118,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605564968255</updated>
-      <workItem from="1605564972119" duration="3412000" />
+      <workItem from="1605564972119" duration="3602000" />
+      <workItem from="1605733923322" duration="6038000" />
     </task>
     <servers />
   </component>
@@ -128,54 +131,131 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="184" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1605564997373" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1605568501965">
+    <state x="-64" y="245" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1605736796041">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605568501965" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605565443198" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1605568501964">
+    <state x="-64" y="245" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605736796041" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1605740231522">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605568501964" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605565443198" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1605568501964">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605568576803" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605740231522" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1605740231522">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605568501964" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605565443198" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1605568501964">
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605568576803" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605740231522" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1605740231522">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605568501964" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605565443198" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1605567428485">
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605568576803" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605740231522" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1605740231522">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605567428485" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1605567428485">
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605568576803" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605740231522" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1605740202555">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605567428485" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1605567428484">
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605568576804" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605740202555" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1605740202555">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605567428484" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1605567428485">
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605568576804" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605740202555" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1605740202555">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605567428485" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605568576804" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605740202555" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1605740202555">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605568576804" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605740202555" />
     <state x="461" y="168" key="SettingsEditor" timestamp="1605565983764">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605565983764" />
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605565353112" />
-    <state x="731" y="229" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605568213615">
+    <state x="656" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1605734007866">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605734007866" />
+    <state x="731" y="229" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605734050443">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="731" y="229" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605568213615" />
+    <state x="731" y="229" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605734050443" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605567237849">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605567237849" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GapInPrimes.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GapInPrimes.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GapInPrimes.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GapInPrimes.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GapInPrimes.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GapInPrimes.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GapInPrimes.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GapInPrimes.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GapInPrimes.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GapInPrimes.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/GapInPrimes.java</url>
+          <line>21</line>
+          <properties class="GapInPrimes" method="isPrime">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
